@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const FeatureList = ({ items }: { items: string[] }) => (
     <ul className="space-y-4 mb-8">
         {items.map((item, i) => (

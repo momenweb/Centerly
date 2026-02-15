@@ -1,4 +1,3 @@
-import React from 'react';
 const Testimonials = () => {
     return (
         <section className="py-24 bg-background-light dark:bg-background-dark relative overflow-hidden">

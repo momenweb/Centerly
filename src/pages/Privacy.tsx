@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import SEO from '../components/SEO';
@@ -103,8 +103,8 @@ const Privacy = () => {
                                             <button
                                                 onClick={() => scrollTo(id)}
                                                 className={`w-full text-left px-3 py-2 rounded-xl text-sm font-medium transition-all duration-200 ${activeSection === id
-                                                        ? 'bg-primary/10 text-primary dark:text-primary-light'
-                                                        : 'text-gray-500 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-white/5'
+                                                    ? 'bg-primary/10 text-primary dark:text-primary-light'
+                                                    : 'text-gray-500 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-white/5'
                                                     }`}
                                             >
                                                 {title}
