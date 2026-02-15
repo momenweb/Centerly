@@ -1,3 +1,4 @@
+import React from 'react';
 const Demo = () => {
     return (
         <section id="demo" className="py-24 bg-background-light dark:bg-gray-900/50">

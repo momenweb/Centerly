@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
 import { LogoColor } from '../ui/Logo';
 import { useLocation, useNavigate } from 'react-router-dom';
@@ -40,8 +41,8 @@ const Navbar = () => {
         <>
             <nav className={`fixed w-full z-50 top-0 left-0 right-0 transition-all duration-300 ${scrolled ? 'pt-4 px-4' : 'pt-6 px-6'}`}>
                 <div className={`max-w-7xl mx-auto rounded-2xl transition-all duration-300 ${scrolled
-                        ? 'glass-panel px-6 py-3'
-                        : 'bg-transparent px-0 py-2'
+                    ? 'glass-panel px-6 py-3'
+                    : 'bg-transparent px-0 py-2'
                     }`}>
                     <div className="flex justify-between items-center">
                         {/* Logo */}

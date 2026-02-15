@@ -1,3 +1,4 @@
+import React from 'react';
 import { LogoColor } from '../ui/Logo';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 

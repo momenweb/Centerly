@@ -1,29 +1,28 @@
+import React from 'react';
 const CTA = () => {
     return (
-        <section className="py-32 relative overflow-hidden">
-            <div className="absolute inset-0 bg-background-dark">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-background-dark to-secondary/20 opacity-50"></div>
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/10 rounded-full blur-[120px] animate-pulse-slow"></div>
-            </div>
-
-            <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center relative z-10">
-                <h2 className="text-5xl md:text-7xl font-bold mb-8 text-white tracking-tight leading-tight">
-                    Ready to reclaim your <br className="hidden md:block" />
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-light to-secondary">mental bandwidth?</span>
-                </h2>
-                <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
-                    Join 500+ founders who have switched from "manager mode" back to "builder mode".
-                </p>
-                <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
-                    <button className="bg-white text-background-dark hover:bg-gray-100 text-lg font-bold px-10 py-5 rounded-full shadow-2xl hover:shadow-white/20 hover:-translate-y-1 transition-all duration-300 flex items-center gap-2">
-                        Start Free Trial
-                        <span className="material-icons-round">arrow_forward</span>
-                    </button>
-                    <button className="px-10 py-5 rounded-full border border-white/10 text-white font-bold hover:bg-white/10 transition-all">
-                        Talk to Sales
-                    </button>
+        <section className="py-24 bg-background-light dark:bg-background-dark relative">
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div className="relative overflow-hidden rounded-[2.5rem] bg-gradient-to-br from-[#4528f1] via-[#3713ec] to-[#250ba3] p-8 md:p-16 text-center shadow-2xl">
+                    <div className="absolute -top-24 -left-24 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
+                    <div className="absolute top-1/2 -right-32 w-80 h-80 bg-purple-500/20 rounded-full blur-3xl"></div>
+                    <div className="relative z-10">
+                        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white tracking-tight">
+                            Stop Operating Blind.
+                        </h2>
+                        <p className="text-lg md:text-xl text-blue-100 mb-10 max-w-2xl mx-auto font-medium leading-relaxed">
+                            Your startup already generates the answers. Centerly makes them visible.
+                        </p>
+                        <div className="flex flex-col sm:flex-row items-stretch justify-center gap-4 max-w-lg mx-auto">
+                            <button className="px-8 py-4 bg-white text-primary font-bold rounded-full hover:bg-gray-50 transition-colors shadow-lg whitespace-nowrap">
+                                Get Early Access
+                            </button>
+                            <button className="px-8 py-4 bg-transparent border border-white/30 text-white font-bold rounded-full hover:bg-white/10 transition-colors whitespace-nowrap">
+                                Book Demo
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <p className="mt-8 text-sm text-gray-500 font-medium">No credit card required • SOC 2 Compliant</p>
             </div>
         </section>
     );

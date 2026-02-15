@@ -1,3 +1,4 @@
+import React from 'react';
 
 export const FeatureList = ({ items }: { items: string[] }) => (
     <ul className="space-y-4 mb-8">
@@ -141,15 +142,13 @@ export const Stats = () => {
 
 export const Mission = () => {
     return (
-        <section className="py-32 bg-white dark:bg-background-dark relative overflow-hidden">
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/5 via-background-dark to-background-dark pointer-events-none"></div>
-
-            <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center relative z-10">
-                <h2 className="text-5xl md:text-8xl font-black tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-gray-900 to-gray-500 dark:from-white dark:to-gray-600 mb-8 leading-[0.9]">
+        <section className="py-32 bg-white dark:bg-background-dark">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 className="text-4xl md:text-7xl font-extrabold tracking-tighter text-gray-900 dark:text-white mb-8">
                     BUILT FOR FOUNDERS,<br />NOT MANAGERS.
                 </h2>
-                <p className="text-xl md:text-2xl text-gray-500 dark:text-gray-400 font-light max-w-3xl mx-auto leading-relaxed">
-                    While managers track tasks, founders track trajectory. Centerly is designed for the person who needs to know <span className="text-primary font-medium">everything</span> without being in <span className="text-gray-900 dark:text-white font-medium">every meeting</span>.
+                <p className="text-xl text-gray-500 dark:text-gray-400 font-medium max-w-2xl mx-auto">
+                    While managers track tasks, founders track trajectory. Centerly is designed for the person who needs to know everything without being in every meeting.
                 </p>
             </div>
         </section>
